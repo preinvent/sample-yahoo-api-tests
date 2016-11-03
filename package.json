@@ -1,0 +1,19 @@
+{
+  "name": "yahoo-api-tests",
+  "version": "1.0.0",
+  "description": "Yahoo Weather API tests",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "query-string": "^4.2.3",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec test/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
